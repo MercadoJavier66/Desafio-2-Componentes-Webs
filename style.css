@@ -1,4 +1,24 @@
+.table-info{
+    width: 100%;
+    border: 1px solid #999;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    border-color: black;
+}
 
-.tabla1estilo{
-    background-color: darkcyan;
+.table-info.green th{
+    background-color: rgb(221, 240, 221);
+}
+.table-info.blue th{
+    background-color: rgb(165, 187, 235);
+}
+.table-info.orange th{
+    background-color: rgb(238, 164, 133);
+    
+}
+
+.table-info th{
+    text-align: center;
+    border: solid rgb(90, 90, 90) 1px;
 }

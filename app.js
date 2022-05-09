@@ -10,13 +10,14 @@ Vue.component("tabla-vehiculo", {
             required: true
         },
         estilos:{
-            //pendiente
+            type: String,
+            required: true
         }
 
     },
     template:`
         <div>
-            <table >
+            <table :class="estilos">
                 <thead >
                     <tr>
                         <th v-for="(item, i) in titulos" :key="i" scope="col">{{ item }}</th>

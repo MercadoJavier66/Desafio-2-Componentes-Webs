@@ -8,17 +8,17 @@
     <title>Desafio Clase 4 - Componentes Webs</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="./app.js" defer></script>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div id="app">
-        <tabla-vehiculo :titulos="tabla1.titulos" :registros="tabla1.registros">
+        <tabla-vehiculo :titulos="tabla1.titulos" :registros="tabla1.registros" :estilos="'table-info blue'">
         </tabla-vehiculo>
 
-        <tabla-vehiculo :titulos="tabla2.titulos" :registros="tabla2.registros">
+        <tabla-vehiculo :titulos="tabla2.titulos" :registros="tabla2.registros" :estilos="'table-info green'">
         </tabla-vehiculo>
 
-        <tabla-vehiculo :titulos="tabla3.titulos" :registros="tabla3.registros">
+        <tabla-vehiculo :titulos="tabla3.titulos" :registros="tabla3.registros" :estilos="'table-info orange'">
         </tabla-vehiculo>
     </div>
 </body>
